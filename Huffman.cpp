@@ -13,7 +13,7 @@ Huffman::~Huffman() {
     deleteTree(root);
 }
 
-// deleteTree function
+// deleteTree method
 void Huffman::deleteTree(Node *node) {
     if (node == nullptr) return;   
     
@@ -23,7 +23,7 @@ void Huffman::deleteTree(Node *node) {
     delete node;                   
 }
 
-// printTree function
+// printTree method
 void Huffman::printTree(Node* node)
 {
     if(!node) return;
